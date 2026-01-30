@@ -42,12 +42,12 @@ namespace WindowsFormsApp1.Model
 
     public partial class Diak
     {
-        public static List<Diak> FromJson(string json) => JsonConvert.DeserializeObject<List<Diak>>(json, WindowsFormsApp1.Converter.Settings);
+        public static List<Diak> FromJson(string json) => JsonConvert.DeserializeObject<List<Diak>>(json, WindowsFormsApp1.Model.Converter.Settings);
     }
 
     public static class Serialize
     {
-        public static string ToJson(this List<Diak> self) => JsonConvert.SerializeObject(self, WindowsFormsApp1.Converter.Settings);
+        public static string ToJson(this List<Diak> self) => JsonConvert.SerializeObject(self, WindowsFormsApp1.Model.Converter.Settings);
     }
 
     internal static class Converter
