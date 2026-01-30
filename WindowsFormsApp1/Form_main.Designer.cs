@@ -1,0 +1,211 @@
+﻿namespace WindowsFormsApp1
+{
+    partial class Form_Main
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Main));
+            this.listBox_diakok = new System.Windows.Forms.ListBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox_Email = new System.Windows.Forms.TextBox();
+            this.textBox_TeljesNev = new System.Windows.Forms.TextBox();
+            this.textBox_id = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox_Diak = new System.Windows.Forms.PictureBox();
+            this.button_Create = new System.Windows.Forms.Button();
+            this.button_update = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Diak)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // listBox_diakok
+            // 
+            this.listBox_diakok.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBox_diakok.FormattingEnabled = true;
+            this.listBox_diakok.Location = new System.Drawing.Point(3, 3);
+            this.listBox_diakok.Name = "listBox_diakok";
+            this.listBox_diakok.Size = new System.Drawing.Size(194, 490);
+            this.listBox_diakok.TabIndex = 0;
+            this.listBox_diakok.SelectedIndexChanged += new System.EventHandler(this.listBox_diakok_SelectedIndexChanged);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button_update);
+            this.groupBox1.Controls.Add(this.button_Create);
+            this.groupBox1.Controls.Add(this.textBox_Email);
+            this.groupBox1.Controls.Add(this.textBox_TeljesNev);
+            this.groupBox1.Controls.Add(this.textBox_id);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox1.Location = new System.Drawing.Point(203, 3);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(494, 490);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Kiválaszttott diák";
+            // 
+            // textBox_Email
+            // 
+            this.textBox_Email.Location = new System.Drawing.Point(115, 139);
+            this.textBox_Email.Name = "textBox_Email";
+            this.textBox_Email.Size = new System.Drawing.Size(168, 20);
+            this.textBox_Email.TabIndex = 5;
+            // 
+            // textBox_TeljesNev
+            // 
+            this.textBox_TeljesNev.Location = new System.Drawing.Point(115, 91);
+            this.textBox_TeljesNev.Name = "textBox_TeljesNev";
+            this.textBox_TeljesNev.Size = new System.Drawing.Size(168, 20);
+            this.textBox_TeljesNev.TabIndex = 4;
+            // 
+            // textBox_id
+            // 
+            this.textBox_id.Location = new System.Drawing.Point(115, 35);
+            this.textBox_id.Name = "textBox_id";
+            this.textBox_id.ReadOnly = true;
+            this.textBox_id.Size = new System.Drawing.Size(100, 20);
+            this.textBox_id.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Location = new System.Drawing.Point(24, 139);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Email cím";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Location = new System.Drawing.Point(24, 91);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(56, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Teljes név";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Location = new System.Drawing.Point(24, 43);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(15, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "id";
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 3;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 200F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 500F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.listBox_diakok, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.groupBox1, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox_Diak, 2, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(934, 496);
+            this.tableLayoutPanel1.TabIndex = 6;
+            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
+            // 
+            // pictureBox_Diak
+            // 
+            this.pictureBox_Diak.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox_Diak.Location = new System.Drawing.Point(703, 3);
+            this.pictureBox_Diak.Name = "pictureBox_Diak";
+            this.pictureBox_Diak.Size = new System.Drawing.Size(228, 490);
+            this.pictureBox_Diak.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox_Diak.TabIndex = 2;
+            this.pictureBox_Diak.TabStop = false;
+            // 
+            // button_Create
+            // 
+            this.button_Create.Location = new System.Drawing.Point(27, 236);
+            this.button_Create.Name = "button_Create";
+            this.button_Create.Size = new System.Drawing.Size(75, 53);
+            this.button_Create.TabIndex = 6;
+            this.button_Create.Text = "&Create";
+            this.button_Create.UseVisualStyleBackColor = true;
+            this.button_Create.Click += new System.EventHandler(this.button_Create_Click);
+            // 
+            // button_update
+            // 
+            this.button_update.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button_update.BackgroundImage")));
+            this.button_update.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button_update.Location = new System.Drawing.Point(140, 236);
+            this.button_update.Name = "button_update";
+            this.button_update.Size = new System.Drawing.Size(75, 53);
+            this.button_update.TabIndex = 7;
+            this.button_update.UseVisualStyleBackColor = true;
+            this.button_update.Click += new System.EventHandler(this.button_update_ClickAsync);
+            // 
+            // Form_Main
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(934, 496);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Name = "Form_Main";
+            this.Text = "Adatelérés";
+            this.Load += new System.EventHandler(this.Form_Main_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Diak)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ListBox listBox_diakok;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox_id;
+        private System.Windows.Forms.TextBox textBox_Email;
+        private System.Windows.Forms.TextBox textBox_TeljesNev;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.PictureBox pictureBox_Diak;
+        private System.Windows.Forms.Button button_Create;
+        private System.Windows.Forms.Button button_update;
+    }
+}
+
